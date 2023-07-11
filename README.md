@@ -44,7 +44,6 @@ The user's numeric input must be validated the hard way:
 - Procedures (except `main`) must not reference data segment variables by name. Violating this rule incurs a significant penalty. Some global constants (defined using EQU, =, or TEXTEQU and not redefined) are allowed.
 - The program must use Register Indirect addressing or string primitives (e.g. STOSD) for integer (SDWORD) array elements, and Base+Offset addressing for accessing parameters on the runtime stack.
 - Procedures may use local variables when appropriate.
-- The program must be fully documented and laid out according to the CS271 Style Guide.
 
 ### Notes
 
